@@ -45,10 +45,14 @@ async def about(interaction: discord.Interaction):
     embed.set_footer(text="Built by a student, for students.")
     await interaction.response.send_message(embed=embed)
 
+# Wrong: indented, so they're inside the command and never run
+async def about(interaction: discord.Interaction):
+    ...
+    show_banner()
+    client.run(TOKEN)
 
-# ... all your commands: /ping, /about, /tip ...
 
-
+# Right: no spaces at the start
 show_banner()
 client.run(TOKEN)
 print(f"{GRAY}Dalil is going to sleep. See you soon!{RESET}")

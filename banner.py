@@ -37,7 +37,7 @@ ART = r"""
 
 def show_banner():
     # Make sure Windows can print the block letters
-    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 
     for i, line in enumerate(ART.strip("\n").split("\n")):
         compass, text = line[:30], line[30:]
