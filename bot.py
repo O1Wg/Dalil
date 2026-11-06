@@ -26,7 +26,7 @@ client = Dalil()
 
 @client.event
 async def on_ready():
-    print(f"Logged in as {client.user}")
+    print(f"{GREEN}Online as {client.user}. Press Ctrl+C to stop.{RESET}")
 
 
 @client.tree.command(description="Check if Dalil is awake")
