@@ -23,6 +23,9 @@ class General(commands.Cog):
         )
         embed.set_footer(text="Built by a student, for students.")
         await interaction.response.send_message(embed=embed)
+    @app_commands.command(description="Show Dalil's logo")
+    async def logo(self, interaction: discord.Interaction):
+      await interaction.response.send_message(discord_logo())
 
 
 # discord.py calls this when bot.py loads the file
