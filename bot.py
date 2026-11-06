@@ -3,6 +3,7 @@ import os
 import discord
 from discord import app_commands
 from dotenv import load_dotenv
+from banner import show_banner, GREEN, GRAY, RESET
 
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
