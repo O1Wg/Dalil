@@ -1,9 +1,22 @@
-# Dalil (دليل) 🧭
+```text
+            N
+       .----^----.            ██████╗  █████╗ ██╗     ██╗██╗
+     .'     |     '.          ██╔══██╗██╔══██╗██║     ██║██║
+    /   \   |   /   \         ██║  ██║███████║██║     ██║██║
+   |      \ | /      |        ██║  ██║██╔══██║██║     ██║██║
+ W <--------+--------> E      ██████╔╝██║  ██║███████╗██║███████╗
+   |      / | \      |        ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝╚══════╝
+    \   /   |   \   /
+     '.     |     .'            -- every journey has a guide --
+       '----v----'                a discord bot for students
+            S
+```
 
-> **لكل رحلة دليل**
-> From your first line of code to your first job.
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
+![discord.py](https://img.shields.io/badge/discord.py-2.x-5865F2?logo=discord&logoColor=white)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-Dalil is a Discord bot for a student community with three batches (C, Python, and a third track) plus graduates. Whether you're fighting a segfault, debugging Python, or job hunting after graduation, Dalil helps you get unstuck, stay motivated, and learn from people who've been there.
+**Dalil** (دليل, Arabic for "guide") is a Discord bot for a student community with three batches (C, Python, and a third track) plus graduates. Its motto is **لكل رحلة دليل**: every journey has a guide. Whether you're fighting a segfault, debugging Python, or job hunting after graduation, Dalil helps you get unstuck, stay motivated, and learn from people who've been there.
 
 **Status:** early development. Built by a student, for students.
 
@@ -166,4 +179,5 @@ Please follow the [project rules](#project-rules), especially: no project soluti
 ## License
 
 [MIT](LICENSE)
+
 Built by [@O1Wg](https://github.com/O1Wg), a student, for students.
