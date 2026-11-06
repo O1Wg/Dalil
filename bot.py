@@ -46,5 +46,9 @@ async def about(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed)
 
 
-# Keep this line last: anything after it never runs
+# ... all your commands: /ping, /about, /tip ...
+
+
+show_banner()
 client.run(TOKEN)
+print(f"{GRAY}Dalil is going to sleep. See you soon!{RESET}")
