@@ -2,6 +2,8 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
+from banner import discord_logo
+
 
 class General(commands.Cog):
     """Basic commands: /ping and /about."""
