@@ -54,7 +54,7 @@ See the [roadmap](#roadmap) below.
 - [x] Bot online in a private test server
 - [x] `/ping` and `/about`
 - [x] Public repo with MIT license
-- [ ] `/tip`: a random study or coding tip
+- [x] `/tip`: a random study or coding tip
 - [ ] `/duck`: rubber duck debugging; the bot asks guiding questions so you find the bug yourself
 - [ ] `/help`: lists every command and what it does
 

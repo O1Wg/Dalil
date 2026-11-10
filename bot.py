@@ -10,7 +10,9 @@ from banner import show_banner, GREEN, GRAY, RESET
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 GUILD = discord.Object(id=int(os.getenv("GUILD_ID")))
+TIPS = json.loads((Path(_file_).parent / "tips.json").read_text(encoding="utf-8"))
 
+Khalid@DESKTOP-P0207AP MINGW
 COGS_DIR = Path(__file__).parent / "cogs"
 
 
