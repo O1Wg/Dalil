@@ -1,11 +1,11 @@
 import json
 import random
-import discord 
+import discord
 
-with open("tips.json", encoding="utf=8;") as f:
-TIPS = json.load(f)
+with open("tips.json", encoding="utf-8") as f:
+    TIPS = json.load(f)
 
-@bot.tree.command(name="tips", description="Get a ramdom study or coding tip")
+@bot.tree.command(name="tip", description="Get a random study or coding tip")
 async def tip(interaction: discord.Interaction):
-all_tips = TIPS["study"] + TIPS["coding"]
-await interaction.response.send_message(f" 💡 {random.choice(all_tips)}")
+    all_tips = TIPS["study"] + TIPS["coding"]
+    await interaction.response.send_message(f"💡 {random.choice(all_tips)}")
