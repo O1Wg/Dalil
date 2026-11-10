@@ -1,11 +1,14 @@
-import json
-import random
-import discord
-
-with open("tips.json", encoding="utf-8") as f:
-    TIPS = json.load(f)
-
-@bot.tree.command(name="tip", description="Get a random study or coding tip")
-async def tip(interaction: discord.Interaction):
-    all_tips = TIPS["study"] + TIPS["coding"]
-    await interaction.response.send_message(f"💡 {random.choice(all_tips)}")
+{
+  "study": [
+    "Try to understand, don't memorize. If you get the why, you can rebuild the how.",
+    "Information takes time to sink in. Take breaks and come back to it.",
+    "Explain what you just learned out loud, as if teaching a friend. Gaps show up fast.",
+    "Short sessions every day beat one long session the night before."
+  ],
+  "coding": [
+    "Document your work in comments. Future you will thank you.",
+    "Read the error message slowly and fully before changing anything.",
+    "Write a small piece, run it, then write the next piece. Don't write 200 lines before testing.",
+    "Name things clearly. A good variable name saves you a comment."
+  ]
+}
