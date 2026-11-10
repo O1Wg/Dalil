@@ -9,8 +9,8 @@ from discord.ext import commands
 TIPS_FILE = Path(__file__).parent.parent / "tips.json"
 TIPS = json.loads(TIPS_FILE.read_text(encoding="utf-8"))
 
-class Tips(commands.Cog);
-  def __inti__(self, bot):
+class Tips(commands.Cog):
+  def __init__(self, bot):
       self.bot = bot
 
       @app_commands.command(name="tip", description="GEt a random study or coding tip")
