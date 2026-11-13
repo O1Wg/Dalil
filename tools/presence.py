@@ -21,9 +21,11 @@ from banner import show_banner, GREEN, GRAY, RED, RESET # noqa: E402
 
 load_dotenv()
 CLIENT_ID = os.getenv("DISCORD_CLIENT_ID")
+if not CLIENT_ID:
+    print(f"{RED}DISCORD_CLIENT_ID is missing from .env{RESET}")
+    sys.exit(1)
 
 show_banner()
-
 
 rpc = Presence(CLIENT_ID)
 try:
