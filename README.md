@@ -55,7 +55,7 @@ See the [roadmap](#roadmap) below.
 - [x] `/ping` and `/about`
 - [x] Public repo with MIT license
 - [x] `/tip`: a random study or coding tip
-- [ ] `/duck`: rubber duck debugging; the bot asks guiding questions so you find the bug yourself
+- [x] `/duck`: rubber duck debugging; the bot asks guiding questions so you find the bug yourself
 - [ ] `/help`: lists every command and what it does
 
 ### Phase 2: Batches and graduates
